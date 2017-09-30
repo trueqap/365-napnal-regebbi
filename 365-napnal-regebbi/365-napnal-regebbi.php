@@ -1,5 +1,16 @@
 <?php
 
+/**
+* Plugin Name: 365-napnal-regebbi
+* Plugin URI: https://github.com/trueqap/365-napnal-regebbi/
+* Description: 365 napnál régebbi WordPress post figyelmeztetés
+* Version: 1.0
+* Author: trueqap
+* Author URI: Author's website
+* License: GPL2
+*/
+
+
 function time2string($timeline) {
     $periods = array('napja' => 86400, 'órája' => 3600, 'perce és' => 60, 'másodperce' => 1);
 
